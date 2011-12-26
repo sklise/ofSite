@@ -7,7 +7,7 @@
     ${self.head()}
   </head>
   <body>
-    <div id="content">
+    <div id="content" class="documentation">
       ${self.header()}
       <div id="body-wrap">	
 

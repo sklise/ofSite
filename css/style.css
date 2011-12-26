@@ -18,6 +18,7 @@ body {
 	text-align: left;
 	webkit-box-shadow: 5px 5px 5px #aaa, -5px 0 5px #aaa;
 	width: 1000px;
+	background-color: white;
 }
 #wrap {
 	margin: 0px;
@@ -25,13 +26,38 @@ body {
 	width: 1000px;
 }
 #body-wrap {
-	background: white;
 	clear: both;
 	float: left;
 	margin: 0px;
 	padding: 30px 0px 80px 0px;
 	width: 100%;
+	background: transparent;
 }
+#body-wrap.download {
+	background: white url(../images/crane.png) no-repeat;
+	background-position-x: 690px;
+	background-position-y: 30px;
+}
+/*#body-wrap.about {
+	background: white url(../images/crane.png) no-repeat;
+	background-position-x: 690px;
+	background-position-y: 30px;
+}*/
+#body-wrap.download {
+	background: white url(../images/crane.png) no-repeat;
+	background-position-x: 690px;
+	background-position-y: 30px;
+}
+#content.documentation {
+	background: white url(../images/documentation.png) no-repeat;
+	background-position-x: 50px;
+	background-position-y: 115px;
+}
+/*#body-wrap.gallery {
+	background: white url(../images/truck2.png) no-repeat;
+	background-position-x: 300px;
+	background-position-y: 0px;
+}*/
 #footer {
 	background-color: black;
 	clear: both;
@@ -89,7 +115,7 @@ body {
 	padding-top: 3px;
 }
 #head {
-	background-color: white;
+	background-color: transparent;
 	float: left;
 	height: 120px;
 	padding: 20px 0px 5px 0px;

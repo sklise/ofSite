@@ -12,7 +12,7 @@
   <body>
     <div id="content">
       ${self.header()}
-      <div id="body-wrap">
+      <div id="body-wrap" class="gallery">
             <div class="page-wide">
     	        <h1>gallery</h1>
                 <h3>Curated by <a href="http://creativeapplications.net">creativeapplications.net</a></h3>
